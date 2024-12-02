@@ -1,0 +1,24 @@
+.container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.header-container__logo {
+    width: 75px;
+    height: 75px;
+    display: flex;
+}
+.header-container__nav-title {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.header-container__bakground {
+    width: 35px;
+    display: flex;
+    height: 35px;
+    margin-left: 2%;
+    border-radius: 15px;
+}

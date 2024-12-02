@@ -1,0 +1,46 @@
+/* FavPlaces.module.css */
+
+.container-fav-places-wrapper {
+    display: flex;
+    justify-content: center; /* Центрирование карточек по горизонтали */
+    gap: 20px; /* Расстояние между карточками */
+    flex-wrap: wrap; /* Позволяет переносить карточки на следующую строку на узких экранах */
+    padding: 20px;
+}
+
+.container-fav-places_block {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 300px; /* Фиксированная ширина карточек */
+}
+
+.img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.container-fav-places__title {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.container-fav-places_text {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+.container-fav-places_block:hover {
+    scale: 1.2;
+    transition: scale 0.1s ease-in-out;
+    background-color: #8989ae;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

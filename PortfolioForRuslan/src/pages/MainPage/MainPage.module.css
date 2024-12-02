@@ -1,0 +1,39 @@
+.container-information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.mainAvatar {
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+    padding: 0.4em;
+}
+
+.container-information__title {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.container-information__subtitle {
+    font-size: 15px;
+    font-weight: 200;
+}
+.container-information__links {
+    margin-top: 20px;
+}
+.link {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px 15px;
+    background-color: rgba(45, 85, 204, 0.89);
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}
+.link:hover {
+    background-color: #3838d1;
+}
